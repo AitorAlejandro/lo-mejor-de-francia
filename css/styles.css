@@ -13,10 +13,10 @@
 
  /* global */
  html, body {
-     font-family: Helvetica, Verdana, sans-serif;
-     color: #555;
-     font-size: 100%;
-     height: 100vh; /* set viewport constraint */
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #555;
+    font-size: 100%;
+    height: 100vh; /* set viewport constraint */
     min-height: 100%; /* enforce height */
  }
 
@@ -70,6 +70,19 @@ background: url(../img/full-bg.jpg) no-repeat center center fixed;
     border-top: 0.33rem solid red;
     border-bottom: 0.33rem solid blue; 
 }
+.site-nav > ul > li:first-child {
+    margin-bottom: 2rem;
+}
+.site-nav .main-item {
+    display: block;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid goldenrod;
+}
+.site-nav .item {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
 .section-title {
     font-size: 250%;
     font-family: serif;
