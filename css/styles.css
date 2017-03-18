@@ -6,7 +6,6 @@
  * Botones....................... Estilos de Botones, skins y variantes
  * Navegación.................... 
  * Formularios................... Estilos de todos los elementos de formularios y sus variantes
- * Sitio......................... Aquí escribes tus estilos para la web se vea como tú quieres ;)
  * Paginación.................... Estilos básicos para las paginaciones
  * Texturas...................... Badges, cajas y wells
  * Breakpoints................... 
@@ -17,6 +16,7 @@
      font-family: Helvetica, Verdana, sans-serif;
      color: #555;
      height: 100%;
+     font-size: 100%;
  }
 
  /* Helpers */
@@ -26,14 +26,17 @@
  .row-100w {
      width: 100%;
  }
- .row-90w {
-     width: 90%;
-     margin: auto;
- }
+
 
 /* Tipografía */
+.f-size-120 {
+    font-size: 120%;
+}
 .italic {
     font-style: italic;
+}
+.bold {
+    font-weight: bold;
 }
 
 /* Links */
@@ -41,11 +44,36 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.site-title a {
+    color: goldenrod;
+}
 
 
  /* Elementos */
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+}
+
+/* Sitio */
+body.home {
+background: url(../img/full-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home .site-nav {
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.8);
+    border-top: 0.33rem solid red;
+    border-bottom: 0.33rem solid blue; 
+}
+.section-title {
+    font-size: 250%;
+    font-family: serif;
+    font-style: italic;
+    color: goldenrod;
+    font-weight: 300;
+    text-align: center;
 }
