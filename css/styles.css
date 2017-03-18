@@ -75,6 +75,10 @@ background: url(../img/full-bg.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
 }
+main {
+    max-width: 42em;
+    margin: auto;
+}
 .home .site-nav {
     padding: 1rem;
     background-color: rgba(255,255,255,0.8);
