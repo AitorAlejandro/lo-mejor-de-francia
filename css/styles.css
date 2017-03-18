@@ -27,6 +27,10 @@
  .row-100w {
      width: 100%;
  }
+ .row-90w {
+     width: 90%;
+     margin: auto;
+ }
 
 
 /* Tipografía */
@@ -38,6 +42,9 @@
 }
 .bold {
     font-weight: bold;
+}
+.initial-letter {
+    initial-letter: 2;
 }
 
 /* Links */
@@ -54,6 +61,10 @@ a {
 ul {
     list-style: none;
     padding: 0;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
 
 /* Sitio */
@@ -90,4 +101,23 @@ background: url(../img/full-bg.jpg) no-repeat center center fixed;
     color: goldenrod;
     font-weight: 300;
     text-align: center;
+    line-height: 1;
+}
+.section-subtitle {
+    font-size: 130%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
+}
+.article-title {
+    font-size: 120%;
+    text-align: center;
+    line-height: 1;
+    color: goldenrod
+}
+.foot-note {
+    font-size: 87%;
+    font-family: Verdana;
+    font-weight: 300;
+    font-style: italic;
 }
